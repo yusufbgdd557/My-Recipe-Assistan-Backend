@@ -12,11 +12,6 @@ public class ChatGPTRequest {
 
     private List<Message> messages;
 
-//    public ChatGPTRequest(String model, List<Message> messages) {
-//        this.model = model;
-//        this.messages = messages;
-//    }
-
     public ChatGPTRequest(String model, String prompt) {
         this.model = model;
         this.messages = new ArrayList<>();
